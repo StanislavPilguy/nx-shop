@@ -2,7 +2,11 @@
   "name": "nx-shop",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "frontend-client:start": "nx run frontend-client:serve",
+    "build": "webpack -c webpack.conf.js",
+    "test": "jest --coverage"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
