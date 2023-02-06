@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "frontend-client:start": "nx run frontend-client:serve",
+    "frontend-client:start": "nx run frontend-client:serve --o",
+    "frontend-admin:start": "nx run frontend-admin:serve --o",
     "build": "webpack -c webpack.conf.js",
     "test": "jest --coverage"
   },
